@@ -1,0 +1,25 @@
+{
+  "name": "baelrak",
+  "version": "1.0.0",
+  "description": "The Halls of Bael'rak",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andagr/baelrak.git"
+  },
+  "keywords": [
+    "game",
+    "rpg",
+    "mud"
+  ],
+  "author": "Andreas Ågren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andagr/baelrak/issues"
+  },
+  "homepage": "https://github.com/andagr/baelrak#readme"
+}
