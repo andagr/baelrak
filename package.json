@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/andagr/baelrak/issues"
   },
-  "homepage": "https://github.com/andagr/baelrak#readme"
+  "homepage": "https://github.com/andagr/baelrak#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }

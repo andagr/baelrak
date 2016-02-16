@@ -1,5 +1,10 @@
-var http = require('http');
+var express = require('express');
+var app = express();
 
-var server = http.createServer(function(request, response) {
-    response.end('<html><body><h1>Hello!</h1></body></html>');
-}).listen(process.env.PORT || 5000);
+app.get('/', function (req, res) {
+    res.send('<html><body><h1>Hello again!</h1></body></html>');
+});
+
+app.listen(process.env.PORT || 5000, function () {
+    console.log('App listening...');
+});
