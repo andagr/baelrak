@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: null
+    environment: baelrak-dev
 global:
   application_name: baelrak
   default_ec2_keyname: aws-eb
