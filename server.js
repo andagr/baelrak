@@ -1,11 +1,11 @@
 var express = require('express');
 var app = express();
 
-// app.use(express.static('public'));
-//
-// app.get('/game/start', function (req, res) {
-//     res.send([]);
-// });
+app.use(express.static('public'));
+
+app.get('/game/start', function (req, res) {
+    res.send([]);
+});
 
 console.log("PORT: ", process.env.PORT)
 
