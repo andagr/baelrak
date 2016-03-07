@@ -21,10 +21,10 @@ app.get('/', function (req, res) {
     let onEnter = (player) => {
         log(`Hello $player`);
     }
-    return {
-        coords: coords,
-        onEnter: onEnter
-    };
+    res.send({
+        id: 0,
+        coords: coords
+    });
 });
 
 console.log("PORT: ", process.env.PORT)
