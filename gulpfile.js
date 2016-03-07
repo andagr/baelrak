@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var del = require('del');
 
-gulp.task('default', ['clean', 'build']);
+gulp.task('default', ['build']);
 
 gulp.task('clean', () => {
     return del([
@@ -9,7 +9,7 @@ gulp.task('clean', () => {
     ]);
 });
 
-gulp.task('build', () => {
+gulp.task('build', ['clean'], () => {
     gulp.src('app/**/*')
         .pipe(gulp.dest('static'))
 })
