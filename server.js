@@ -4,7 +4,8 @@ var app = express();
 app.use(express.static('public'));
 
 app.get('/game/start', function (req, res) {
-    res.send([]);
+    let coords = [];
+
 });
 
 console.log("PORT: ", process.env.PORT)
