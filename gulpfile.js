@@ -10,6 +10,6 @@ gulp.task('clean', () => {
 });
 
 gulp.task('build', ['clean'], () => {
-    gulp.src('app/**/*')
+    gulp.src('src/app/**/*')
         .pipe(gulp.dest('static'))
 })
