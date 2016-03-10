@@ -27,7 +27,10 @@
     "express-session": "^1.13.0"
   },
   "devDependencies": {
+    "browserify": "^13.0.0",
     "del": "^2.2.0",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   }
 }
