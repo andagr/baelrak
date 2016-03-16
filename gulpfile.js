@@ -50,6 +50,8 @@ gulp.task('build-static', () => {
 });
 
 gulp.task('watch', ['clean'], () => {
+    buildStatic();
+    
     gulp.watch('src/app/**/!(*.js)', ['build-static'])
         .on('change', (event) => { gutil.log(`File ${event.path} was ${event.type}.`); });
 
